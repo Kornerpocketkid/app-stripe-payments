@@ -17,7 +17,10 @@ gem 'bootstrap-sass'
 
 #use tripe for ecommerce payments
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
-gem 'tzinfo-data', platforms: [:mingw, :mswin]
+
+# Figaro gem for securely managing credentials
+gem 'figaro'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
